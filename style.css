@@ -1,0 +1,73 @@
+body {
+    background-color: dimgrey;
+}
+
+#stopwatchFrame {
+    color: lawngreen;
+    font-family: Calibri;
+    font-size: 100px;
+    text-shadow: 6px 6px 10px #000000;
+    width:500px;
+    margin: 0 auto;
+}
+.float {
+    float: left;
+}
+
+.clearfix:after {
+    content: " "; /* Older browser do not support empty content */
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+#ms {
+    margin-top: 0px;
+    padding: 10px;
+    padding-left: 15px;
+    font-size: 50px;
+}
+
+#stopwatchFrame button {
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    color: lawngreen;
+    font-size: 30px;
+    background-color: black;
+}
+
+#stopwatchFrame button.hover {
+    color: lawngreen;
+}
+#stopwatchOutput {
+    width: 415px;
+    margin: 0 auto;
+}
+#stopwatchOutput p {
+    margin: 0px;
+}
+
+#stopwatchOutput div {
+    float: left;
+}
+
+#helpBtn {
+    border-radius: 10px;
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    color: white;
+    background-color: black;
+}
+
+#laps p {
+    text-align: center;
+    color: lawngreen;
+    font-family: Calibri;
+    font-size: 30px;
+    text-shadow: 2px 2px 3px #000000;
+    border-radius: 50px;
+    background-color: grey;
+}
